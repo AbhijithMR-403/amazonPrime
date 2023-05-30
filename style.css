@@ -1,11 +1,13 @@
 @font-face {
     font-family: 'AmazonEmber';
     src: url("/Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/AmazonEmber_Th.ttf");
-    
+
 }
-*{
+
+* {
     font-family: "AmazonEmber";
 }
+
 body {
     background-color: #00050D;
     margin: 0%;
@@ -23,7 +25,7 @@ body {
     padding: 15px;
 }
 
-#menu-header {
+.menu-header {
     background-color: transparent;
     color: #aaaaaa;
     outline: none;
@@ -38,7 +40,7 @@ body {
     outline: none;
 }
 
-#menu-header:hover {
+.menu-header:hover {
     background-color: #191e25;
     color: white;
 }
@@ -53,6 +55,7 @@ body {
     margin-top: 25px;
     margin-left: 30px;
 }
+
 .try-for-free {
     background-color: transparent;
     color: #aaaaaa;
@@ -73,39 +76,93 @@ body {
     top: 112px;
     left: 76px;
 }
-.button-navigate{
+
+.button-navigate {
     background-color: transparent;
     color: white;
 }
 
-.button-navigate p:first-child{
+.button-navigate p:first-child {
     font-size: 42.8px;
     font-weight: 700;
     margin-bottom: -0px;
 }
-.button-navigate p:nth-child(2){
+
+.button-navigate p:nth-child(2) {
     font-size: 22px;
     font-weight: 700;
 }
-.button-amazon-sign-in{
+
+.button-amazon-sign-in {
     background-color: #0e7bb1;
     color: #ffffff;
     font-weight: 700;
     font-size: 17px;
     padding: 13px 63px 13px 63px;
 }
-.ps-2-div{
+
+.ps-2-div {
     background-image: linear-gradient(to left, #000 40%, transparent 58%),
-     url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Left.jpg);
+        url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Left.jpg);
     /* background-position: left top; */
-    height: 500px;
-    
+    height: 475px;
+
 }
-.ps-2-sign-in{
+
+.ps-2-sign-in {
     position: absolute;
     right: 76px;
     top: 117px;
 }
-.ps-2{
+
+.ps-2 {
     position: relative;
+}
+
+/* *Streaming channels */
+
+.streaming-channels {
+    height: 657px;
+    background-color: #ffffff;
+}
+
+.streaming-channels-div {
+    display: flex;
+    padding: 10px 76px 10px 76px;
+}
+
+.streaming-channels-text {
+    flex: 1;
+}
+
+.streaming-channels-text p:nth-child(1) {
+    font-size: 44.8px;
+    line-height: 49.6px;
+    margin: 24px 78px 24px 0;
+    color: #000000;
+    font-weight: 600;
+}
+
+.streaming-channels-text p:nth-child(2) {
+    font-size: 24px;
+    color: #000000;
+    line-height: 29px;
+    margin-right: 78px;
+    font-weight: 600;
+}
+
+.streaming-channels-logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex: 1;
+    gap: 6px;
+}
+
+.streaming-channels-logo img {
+    width: 222px;
+    height: 153px;
+    cursor: pointer;
+}
+.fireTV-section{
+    
 }
