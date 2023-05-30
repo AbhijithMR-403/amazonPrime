@@ -70,18 +70,20 @@ body {
 
 .sign-in-page-bholaa {
     position: absolute;
-    background-color: transparent;
-    color: white;
     top: 112px;
     left: 76px;
 }
+.button-navigate{
+    background-color: transparent;
+    color: white;
+}
 
-.sign-in-page-bholaa p:first-child{
+.button-navigate p:first-child{
     font-size: 42.8px;
     font-weight: 700;
     margin-bottom: -0px;
 }
-.sign-in-page-bholaa p:nth-child(2){
+.button-navigate p:nth-child(2){
     font-size: 22px;
     font-weight: 700;
 }
@@ -97,4 +99,13 @@ body {
      url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Left.jpg);
     /* background-position: left top; */
     height: 500px;
+    
+}
+.ps-2-sign-in{
+    position: absolute;
+    right: 76px;
+    top: 117px;
+}
+.ps-2{
+    position: relative;
 }
